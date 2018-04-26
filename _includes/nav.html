@@ -18,15 +18,11 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
+                    {% for navigation in site.data.navigation['main'] %}
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="{{ navigation.url }}">{{ navigation.title }}</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

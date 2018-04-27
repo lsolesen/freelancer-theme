@@ -1,0 +1,21 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  toggle_navigation          : "Toggle navigation"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Danish
+# ------
+da: &DEFAULT_DA
+  toggle_navigation          : "Vis/skjul navigationen"
+da-DK:
+  <<: *DEFAULT_DA

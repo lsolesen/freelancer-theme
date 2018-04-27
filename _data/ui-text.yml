@@ -4,6 +4,17 @@
 # -----------------
 en: &DEFAULT_EN
   toggle_navigation          : "Toggle navigation"
+  modal_close                : "Close"
+  contact_heading            : "Contact me"
+  contact_form_subject       : "New Submission!"
+  contact_form_name          : "Name"
+  contact_form_email         : "Email Address"
+  contact_form_phone         : "Phone Number"
+  contact_form_message       : "Message"
+  contact_form_val_name      : "Please enter your name."
+  contact_form_val_email     : "Please enter your email address."
+  contact_form_val_phone     : "Please enter your phone number."
+  contact_form_val_message   : "Please enter a message."
 en-US:
   <<: *DEFAULT_EN
 en-CA:
